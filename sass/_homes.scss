@@ -2,6 +2,10 @@
   grid-column: center-start / center-end;
   margin: 15rem 0;
 
+  @media only screen and (max-width: $bp-small) {
+    margin: 7.5rem 0rem;
+  }
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 7rem;
